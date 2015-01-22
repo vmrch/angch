@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+</title></head>
+<body ng-app="myApp">
+<div ng-controller ="PersonCtrl">
+<div ng-repeat="person in persons">
+{{person.last}}, {{person.first}} {{person.middle}}
+</div>
+</div>
+<script src="js/angular.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
